@@ -1,0 +1,41 @@
+body 
+{ 
+    background-color: #575157; 
+    color: #fff; 
+}
+.navbar-brand 
+{ 
+    font-weight: bold; 
+}
+.nav-link, .btn 
+{ 
+    color: #fff !important; 
+}
+.nav-link:hover, .btn:hover 
+{ 
+    color: #ddd !important; 
+}
+.stat-card 
+{ 
+    text-align: center; padding: 30px; font-size: 1.2rem; 
+}
+.stat-card h3 
+{ font-size: 2rem; 
+}
+.table th, .table td 
+{ 
+    vertical-align: middle; 
+}
+.stat-card:hover 
+{
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+.stat-card i 
+{
+    transition: transform 0.3s ease;
+}
+.stat-card:hover i 
+{
+    transform: rotate(5deg);
+}

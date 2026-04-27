@@ -1,0 +1,20 @@
+body {
+    background-color: #575157;
+    color: #fff;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.product-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #dcd4d4ff;
+}
+.custom-logout {
+    color: #00ffcc;
+}
+.custom-logout i {
+    color: #dfc8ceff;
+}
